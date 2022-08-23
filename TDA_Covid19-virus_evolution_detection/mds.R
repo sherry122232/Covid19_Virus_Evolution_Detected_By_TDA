@@ -1,0 +1,21 @@
+concatDistMat <- read.csv("ay4.csv", header = FALSE)
+
+write.csv(cmdscale(concatDistMat, k = 500),'ay4_mds500.csv')
+write.csv(cmdscale(concatDistMat, k = 300),'ay4_mds300.csv')
+write.csv(cmdscale(concatDistMat, k = 100),'ay4_mds100.csv')
+write.csv(cmdscale(concatDistMat, k = 60),'ay4_mds60.csv')
+write.csv(cmdscale(concatDistMat, k = 50),'ay4_mds50.csv')
+write.csv(cmdscale(concatDistMat, k = 45),'ay4_mds45.csv')
+write.csv(cmdscale(concatDistMat, k = 40),'ay4_mds40.csv')
+write.csv(cmdscale(concatDistMat, k = 20),'ay4_mds20.csv')
+
+concatDistMat <- read.csv("ba1.csv", header = FALSE)
+
+write.csv(cmdscale(concatDistMat, k = 500),'ba1_mds500.csv')
+write.csv(cmdscale(concatDistMat, k = 300),'ba1_mds300.csv')
+write.csv(cmdscale(concatDistMat, k = 100),'ba1_mds100.csv')
+write.csv(cmdscale(concatDistMat, k = 60),'ba1_mds60.csv')
+write.csv(cmdscale(concatDistMat, k = 50),'ba1_mds50.csv')
+write.csv(cmdscale(concatDistMat, k = 45),'ba1_mds45.csv')
+write.csv(cmdscale(concatDistMat, k = 40),'ba1_mds40.csv')
+write.csv(cmdscale(concatDistMat, k = 20),'ba1_mds20.csv')
