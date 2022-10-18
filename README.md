@@ -43,3 +43,16 @@ https://www.ncbi.nlm.nih.gov/
 ![image](https://user-images.githubusercontent.com/45084681/186264748-8994504f-2984-45a8-add9-2dd905394f96.png)
 ![image](https://user-images.githubusercontent.com/45084681/186265030-32a974d6-5c00-4c84-8c08-93c5155f9113.png)
 
+
+
+### Background:
+
+1. What is TDA
+2. What is PCA
+
+### Algorirhms:
+
+<div align=center>
+![image](https://user-images.githubusercontent.com/45084681/196341862-0c13e7c1-416a-430c-a593-94ec5d4a79d8.png)
+</div>
+
