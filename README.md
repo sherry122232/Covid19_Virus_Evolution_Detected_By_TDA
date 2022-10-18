@@ -10,6 +10,27 @@ During the domestic coronavirus outbreak, as the quick evolution of the new muta
 [gisaid.org](https://www.gisaid.org)  
 https://www.ncbi.nlm.nih.gov/  
 
+
+
+### Background:
+
+#### 1. TDA and Persistent homology    
+   TDA is a method for examining the "shape" or topology of data to obtain meaningful information, which could detect topological changes with both accuracy and speed and contribute greatly to the biomedical field, like cancer diagnosis. 
+     
+   Besides, Persistent homology [3], one of the most common algorithms used along with TDA, is a robust and powerful tool for data analysis that performs multi-scale analysis on a set of points and identifies clusters, holes, and voids therein. Given a set of data points, persistent homology computes a set of intervals or lifespans of certain topological structures. The topological structures and their lifespans enable the segregation of meaningful patterns from noise and often lead to the discovery of insight not discernible by conventional methods of data mining. The capabilities of persistent homology come at the cost of its high space complexity that grows exponentially with the number of input data points.
+  
+#### 2. Data dimension reduction based on PCA algorithm  
+  
+   Multidimensional scaling takes a set of dissimilarities and returns a set of points such that the distances between the points are approximately equal to the dissimilarities.   
+     
+   Translate the pairwise distances to vectors in a d-dimensional Euclidean space using Classical Multidimensional Scaling (MDS) [12], also known as Principal Coordinates Analysis (PCoA). For the experiments in the previous subsections, the value of d was empirically chosen to be 45 that provided a good trade-off between the run time and the value of the loss function that MDS aims to minimize.  
+
+
+### Algorirhms:
+![image](https://user-images.githubusercontent.com/45084681/196342305-fa92b622-be62-474a-b29e-9978e80cfbb3.png)
+
+
+
 ### Usage:  
 
 1. Download the original dataset from gisaid/NCBI website.(original_dataset)
@@ -43,16 +64,8 @@ https://www.ncbi.nlm.nih.gov/
 ![image](https://user-images.githubusercontent.com/45084681/186264748-8994504f-2984-45a8-add9-2dd905394f96.png)
 ![image](https://user-images.githubusercontent.com/45084681/186265030-32a974d6-5c00-4c84-8c08-93c5155f9113.png)
 
-
-
-### Background:
-
-1. What is TDA
-2. What is PCA
-
-### Algorirhms:
-
-<div align=center>
-![image](https://user-images.githubusercontent.com/45084681/196341862-0c13e7c1-416a-430c-a593-94ec5d4a79d8.png)
-</div>
+![image](https://user-images.githubusercontent.com/45084681/196342524-551ebd32-21c0-4c7a-9433-b8ea6cc7e172.png)
+![image](https://user-images.githubusercontent.com/45084681/196342533-376338ac-bd81-459f-862e-073bfda61ba2.png)
+![image](https://user-images.githubusercontent.com/45084681/196342538-f3117057-50cb-462e-b8c2-ab7d683ca3b8.png)
+![image](https://user-images.githubusercontent.com/45084681/196342557-4e90cc58-f5db-4c2e-9bf7-a5ffa7b8e6ae.png)
 
